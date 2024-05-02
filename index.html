@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon-32x32.png" type="img/x-icon">
+    <title>Pricing Component</title>
+</head>
+<body>
+    <main>
+        <h1>Our Pricing</h1>
+        <div class="btn-wrapper">
+            <span>Annually</span>
+            <div class="btn-main" role="switch" aria-disabled="true" tabindex="0" aria-label="Choose plan"><div class="inner-circle"></div></div>
+            <span>Monthly</span>
+        </div>
+        <div class="flex-wrapper">
+            <div class="basic plan">
+                <h2>Basic</h2>
+                <span class="basic-price bold"></span>
+                <ul>
+                    <li>500 GB Storage</li>
+                    <li>2 Users Allowed</li>
+                    <li>Send up to 3 GB</li>
+                </ul>
+                <a href="#" aria-label="Learn more about our basic plan" class="blue">LEARN MORE</a>
+            </div>
+            <div class="plan prof">
+                <h2>Professional</h2>
+                <span class="prof-price bold"></span>
+                <ul>
+                    <li>1 TB Storage</li>
+                    <li>5 Users Allowed</li>
+                    <li>Send up to 10 GB</li>
+                </ul>
+                <a href="#" aria-label="Learn more about our professional plan" class="white">LEARN MORE</a>
+            </div>
+            <div class="master plan">
+                <h2>Master</h2>
+                <span class="master-price bold"></span>
+                <ul>
+                    <li>2 TB Storage</li>
+                    <li>10 Users Allowed</li>
+                    <li>Send up to 20 GB</li>
+                </ul>
+                <a href="#" aria-label="Learn more about our master plan" class="blue">LEARN MORE</a>
+            </div>
+        </div>
+    </main>
+    <div class="bottom-bg"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
