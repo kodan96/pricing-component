@@ -197,7 +197,7 @@ main .plan:not(:last-child) {
     background-color: gray;
 }
 
-@keyframes fade {
+/*@keyframes fade {
     0% {
         opacity: 0;
         transform: translateY(-100%);
@@ -220,7 +220,7 @@ main .plan:not(:last-child) {
     100% {
         opacity: 1;
     }
-}
+}*/
 
 .basic,
 .master {
